@@ -5,7 +5,7 @@ This is my most current version of npvisage.co.uk , lets call it Beta 1.2 but co
 
 Instructions: 
 
-Initially install javascript, npm, react on your PC. I recommend installing Visual Studio or Visual Studio Code and then select the necessary option for creating a Web App with JavaScript. You can find details online on how to do this. 
+Initially install javascript, npm, React JS on your PC. I recommend installing Visual Studio or Visual Studio Code and then select the necessary option for creating a Web App with JavaScript. You can find details online on how to do this. 
 
 In cmd with admin rights, first create the react app: 
 npx create-react-app npvisage
