@@ -1,0 +1,406 @@
+
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card.p-2 {
+    height: 50vh;
+}
+
+.col.submit {
+    align-self: end;
+}
+
+.gold {
+    /* background-color: #F6BB39; */
+    background-color: white;
+    margin-bottom: 3rem;
+}
+
+.main-exp {
+    width: 100% !important;
+    margin-top: 3rem;
+    
+}
+
+.main-exp:hover .experiments-overlay {
+    display: block;
+}
+
+/*.main-exp:hover {
+    background-color: white;
+}
+*/
+
+.experi:focus {
+    /*visibility: hidden;*/
+    opacity: 0;
+    /*margin-top: 0;*/
+}
+
+.experiments-overlay {
+    display: none;
+}
+
+.experiment {
+    float: left;
+    padding: 12px;
+    width: 33.3%;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace !important;
+    /*border-color: #B0C4DE !important;*/
+    border-right-color: lightgray;
+    border-bottom-width: medium;
+    border-bottom-color: white;
+}
+
+    .experiment:hover {
+        /*rgb(118, 123, 128)*/
+        background-color: #B0C4DE !important;
+        border-width: medium !important;
+        border-color: white !important;
+        border: dotted !important;
+        /*border-bottom-width: 0 !important;*/
+        font-stretch: expanded;
+        color: white;
+        
+    }
+
+    .experiment p {
+        color: black;
+    }
+
+.light:hover {
+    /*#3cb7b7 */
+    background-color: #a9bcbc !important;
+    
+}
+
+.light:focus {
+    border-color: white;
+}
+
+/* .main-experiment:focus {
+  visibility:collapse;
+} */
+
+.purple:focus {
+    background-color: #B0C4DE;
+}
+
+.navbar.navbar-collapse.font-italic {
+    padding-bottom: 0rem;
+}
+
+.btn {
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    /*font-size: large;*/
+    /*font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;*/
+    border-top-color: dimgray !important;
+    border-left-color: dimgray !important;
+    border-right-color: dimgray !important;
+    border-radius: 16px 16px 0 0;
+}
+
+@media screen and (max-width: 619px) {
+    .btn {
+        width: 98vh;
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 780px) {
+    .btn {
+        height: 8vh;
+    }
+}
+
+.submit {
+    border-radius: 50%;
+}
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        float: none;
+        /*display: block;*/
+        width: 100%;
+        text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+}
+
+.row {
+    height: 50vh
+}
+
+.imgDb {
+    background-color: white;
+    border-radius: 5%;
+    margin: 1%;
+    border-bottom-color: darkgray;
+    border-width: thick;
+    font-family: 'Courier New', Courier, monospace !important;
+    width: 25%;
+    height: 20vh;
+}
+
+@media screen and (max-width: 999px) {
+    .imgDb {
+        /*height: 25vw;*/
+        
+    }
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1699px) {
+    .imgDb {
+        /*height: 18vw;*/
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .imgDb {
+        /*height: 11vw;*/
+    }
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+.imgDb:hover {
+    border-color: #a9bcbc !important;
+    font-size: large;
+    font-stretch: expanded;
+}
+
+.main {
+    /*darkcyan*/
+    background-color: #a9bcbc;
+    font-variant-caps: all-petite-caps;
+    font-family: 'Courier New', Courier, monospace !important;
+    margin: 0 !important;
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+@media screen and (max-width: 999px) {
+    .main {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .main {
+        width: 19%;
+    }
+}
+
+/*@media screen and (min-width: 1201px) {
+    .main {
+        width: 12.5vw;
+    }
+}*/
+
+.main:hover {
+    /* background-color: white; */
+    /*font-size: x-large;*/
+    /*font-stretch: expanded;*/
+    /*font-variant-caps: all-petite-caps;*/
+    border-width: thick !important;
+    border: dotted !important;
+    border-color: darkgray !important;
+}
+
+@media screen and (max-width: 999px) {
+    .main-nav {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .main-nav {
+        padding-left: 0.8rem !important;
+        padding-right: 0.8rem !important;
+    }
+}
+
+.tickable {
+    border-radius: .25em;
+    height: 5vh;
+    width: 5vh;
+    font-size: inherit;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.run {
+    background-color: #a9bcbc;
+    border: none;
+    border-style: dotted;
+    border-radius: 20%;
+    font-family: 'Courier New';
+    width: 4vh;
+    height: 4vh;
+}
+
+    .run:hover {
+        background-color: white;
+    }
+
+.line:hover {
+    background-color: rgb(255, 215, 221);
+}
+
+code {
+    /*padding-top: 2vh;*/
+    margin: 0% -1% 0% 4%;
+    font-family: Consolas;
+    color: black;
+}
+
+/* #graph-id {
+  height: 46vh !important;
+} */
+
+#graph-id-graph-container-zoomable {
+    height: 46vh !important;
+}
+
+@media screen and (max-width: 999px) {
+    .container {
+        max-width: 98vw;
+    }
+}
+
+.barChart {
+    padding-top: 2%;
+    background-color: white;
+}
+
+.bar1 {
+    fill: aqua;
+}
+
+.bar2 {
+    fill: deepskyblue;
+}
+
+.bar3 {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+.axis--x path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: royalblue;
+    stroke-width: 3;
+}
+
+.dot {
+    fill: royalblue;
+    stroke: royalblue;
+}
+
+/*.adjInsert {
+   resize:both;
+   overflow: auto;
+}
+*/
+
+input {
+    border-width: thick;
+    border-style: double;
+    padding: 1%;
+    
+}
+
+adjInsert:focus {
+    border-color: white;
+    
+}
+
+.row {
+    --bs-gutter-x: none !important;
+}
+
+#play-buttons {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#play,#pause,#stop,#slowdown,#speedup {
+    margin-left: 5%;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    .navbar-brand {
+        text-align: center;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+ul {
+    color: black;
+}
+
+.func-title {
+    color: red;
+}
