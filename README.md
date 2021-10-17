@@ -80,5 +80,7 @@ Now, the site is live on https://npvisage.co.uk and all I had to do was wait up 
 
 To access the google collab notebook go to: https://colab.research.google.com/drive/17NEhOQs0LIWhuJbDp0wj5fdlCRzid6f0#scrollTo=4gDHFLb8qoRI
 
+While in google collab you will be asked to insert files, use the ones from the experiments folder.
+
 Thanks for reading! <3
 Angelika Ziolkowska
