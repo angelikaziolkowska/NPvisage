@@ -1,7 +1,7 @@
 # NPvisage
 Experiment with the algorithm to find the second Hamiltonian cycle in a Smith graph: Thomason's Lollipop Algorithm.
 
-This is my most current version of npvisage.co.uk (no www), the single-page, fully front-end dynamic web application, lets call it Beta 1.2 but code which either was not used or was unfinished/commented out I removed from this repo (about half of it).
+This is my most current version of npvisage.co.uk (no www), the single-page, fully front-end dynamic web application, lets call it Beta 1.2 but code which was not used or was unfinished/commented out I removed from this repo (about half of it).
 
 Instructions: 
 
